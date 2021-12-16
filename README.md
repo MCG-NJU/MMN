@@ -1,7 +1,9 @@
 # [AAAI 2022] Negative Sample Matters: A Renaissance of Metric Learning for Temporal Grounding
 > Official Pytorch implementation of Negative Sample Matters: A Renaissance of Metric Learning for Temporal Grounding (AAAI 2022).
 >
-> Paper in https://arxiv.org/pdf/2109.04872.pdf.
+> Paper is at https://arxiv.org/pdf/2109.04872.pdf.
+>
+> Paper explanation in Zhihu (in Chinese) is at https://zhuanlan.zhihu.com/p/446203594.
 
 ### Abstract
 
