@@ -15,8 +15,8 @@ Todo: The code for spatio-temporal video grounding (HC-STVG dataset) will be ava
 
 ### Datasets
 
-* Download the [video feature](https://rochester.app.box.com/s/8znalh6y5e82oml2lr7to8s6ntab6mav) provided by [2D-TAN](https://github.com/microsoft/2D-TAN). 
-* Extract it so that you have the `dataset` folder in the same directory as `train_net.py`. For configurations of feature/groundtruth's paths, please refer to `./mmn/config/paths_catalog.py`.
+* Download the [video feature](https://rochester.app.box.com/s/8znalh6y5e82oml2lr7to8s6ntab6mav) and the [groundtruth](https://github.com/microsoft/2D-TAN/tree/master/data) provided by [2D-TAN](https://github.com/microsoft/2D-TAN). 
+* Extract and put them in a  `dataset` folder in the same directory as `train_net.py`. For configurations of feature/groundtruth's paths, please refer to `./mmn/config/paths_catalog.py`. (ann_file is annotation, feat_file is the video feature)
 
 ### Dependencies
 
