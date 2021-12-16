@@ -18,7 +18,7 @@ Dec, 2021 - We uploaded the code and trained weights for Charades-STA, ActivityN
 
 ### Dependencies
 
-Our code is developed on the [third-party implementation of 2D-TAN](https://github.com/ChenJoya/2dtan), so we have similar dependencies with them, such as:
+Our code is developed on the [third-party implementation of 2D-TAN](https://github.com/ChenJoya/2dtan), so we have similar dependencies with it, such as:
 
 ```
 yacs h5py terminaltables tqdm pytorch transformers 
@@ -42,7 +42,7 @@ master_addr=127.0.0.3
 master_port=29511
 ```
 
-Similarly, to evaluate the model, just change the information `eval.sh`. Our trained weights for three datasets are in the [Google Drive](https://drive.google.com/drive/folders/11zD3YAUSh3u7HPw0eWSJG2cIiMpj_P2K?usp=sharing).
+Similarly, to evaluate the model, just change the information in `eval.sh`. Our trained weights for three datasets are in the [Google Drive](https://drive.google.com/drive/folders/11zD3YAUSh3u7HPw0eWSJG2cIiMpj_P2K?usp=sharing).
 
 ### Citation
 
