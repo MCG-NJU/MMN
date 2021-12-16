@@ -1,5 +1,5 @@
 # [AAAI 2022] Negative Sample Matters: A Renaissance of Metric Learning for Temporal Grounding
-> Pytorch implementation of Negative Sample Matters: A Renaissance of Metric Learning for Temporal Grounding (AAAI 2022).
+> Official Pytorch implementation of Negative Sample Matters: A Renaissance of Metric Learning for Temporal Grounding (AAAI 2022).
 >
 > Paper in https://arxiv.org/pdf/2109.04872.pdf.
 
@@ -9,7 +9,7 @@ Temporal grounding aims to localize a video moment which is semantically aligned
 
 ### Updates
 
-Dec, 2021 - We uploaded the code and pretrained weights for Charades-STA, ActivityNet-Captions and TACoS datasets.
+Dec, 2021 - We uploaded the code and trained weights for Charades-STA, ActivityNet-Captions and TACoS datasets.
 
 ### Datasets
 
@@ -42,7 +42,7 @@ master_addr=127.0.0.3
 master_port=29511
 ```
 
-Similarly, to evaluate the model, just change the information `eval.sh`.
+Similarly, to evaluate the model, just change the information `eval.sh`. Our trained weights for three datasets are in the [Google Drive](https://drive.google.com/drive/folders/11zD3YAUSh3u7HPw0eWSJG2cIiMpj_P2K?usp=sharing).
 
 ### Citation
 
@@ -72,5 +72,5 @@ Zhenzhi Wang: zhenzhiwang@outlook.com
 ```
 ### Acknowledgement
 
-We appreciate [2D-TAN](https://github.com/microsoft/2D-TAN) for video feature and configurations, and the [third-party implementation of 2D-TAN](https://github.com/ChenJoya/2dtan) for its implementation with `DistributedDataParallel`.
+We appreciate [2D-TAN](https://github.com/microsoft/2D-TAN) for video feature and configurations, and the [third-party implementation of 2D-TAN](https://github.com/ChenJoya/2dtan) for its implementation with `DistributedDataParallel`. Disclaimer: the performance gain of this [third-party implementation](https://github.com/ChenJoya/2dtan) is due to a tiny mistake of adding val set into training, yet our reproduced result is similar to the reported result in 2D-TAN paper.
 
