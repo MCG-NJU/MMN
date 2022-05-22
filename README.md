@@ -11,9 +11,9 @@ Temporal grounding aims to localize a video moment which is semantically aligned
 
 ### Updates
 
-Dec, 2021 - We uploaded the code and trained weights for Charades-STA, ActivityNet-Captions and TACoS datasets.
+May, 2022 - We release the code for spatio-temporal video grounding (HC-STVG dataset) [here](https://github.com/atao99/MMN-STVG).
 
-Todo: The code for spatio-temporal video grounding (HC-STVG dataset) will be available soon.
+Dec, 2021 - We uploaded the code and trained weights for Charades-STA, ActivityNet-Captions and TACoS datasets.
 
 ### Datasets
 
@@ -73,6 +73,7 @@ For any question, please raise an issue (preferred) or contact
 
 ```
 Zhenzhi Wang: zhenzhiwang@outlook.com
+Tao Wu: wt@smail.nju.edu.cn (for HC-STVG only)
 ```
 ### Acknowledgement
 
