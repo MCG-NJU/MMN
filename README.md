@@ -50,10 +50,9 @@ Similarly, to evaluate the model, just change the information in `eval.sh`. Our 
 
 ### Citation
 
-If you find our code useful, please generously cite our paper. (AAAI version bibtex will be updated later)
-
+If you find our code useful, please generously cite our paper. 
 ```
-@article{DBLP:journals/corr/abs-2109-04872,
+@inproceedings{DBLP:conf/aaai/00010WLW22,
   author    = {Zhenzhi Wang and
                Limin Wang and
                Tao Wu and
@@ -61,9 +60,10 @@ If you find our code useful, please generously cite our paper. (AAAI version bib
                Gangshan Wu},
   title     = {Negative Sample Matters: {A} Renaissance of Metric Learning for Temporal
                Grounding},
-  journal   = {CoRR},
-  volume    = {abs/2109.04872},
-  year      = {2021}
+  booktitle = {{AAAI}},
+  pages     = {2613--2623},
+  publisher = {{AAAI} Press},
+  year      = {2022}
 }
 ```
 
